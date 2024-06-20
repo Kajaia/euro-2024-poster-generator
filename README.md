@@ -4,7 +4,7 @@ A Python package to generate Euro 2024 match posters with Pillow.
 
 ## Description
 
-The Euro 2024 Match Poster Generator is a Python package that uses the Pillow library to create customized posters for Euro 2024 matches. It allows users to input match ID from [https://prosoccer.tv](https://prosoccer.tv "Live Soccer on TV - Schedules and Results - ProSoccer.TV").
+The Euro 2024 Match Poster Generator is a Python package that uses the Pillow library to create customized posters for Euro 2024 matches. It allows users to input match ID from [https://prosoccer.tv](https://prosoccer.tv "Live Soccer on TV - Schedules and Results - ProSoccer.TV") and get information from their API. It is legal and approved.
 
 ## Installation
 
@@ -40,4 +40,4 @@ This will generate a poster with the details of the match between England and It
 
 ## Contact
 
-For any questions or suggestions, feel free to contact the project maintainer at lasha@kajaia.dev.
+For any questions or suggestions, feel free to contact the project maintainer at [lasha@kajaia.dev](mailto:lasha@kajaia.dev "Contact the developer").
