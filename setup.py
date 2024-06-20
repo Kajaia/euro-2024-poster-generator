@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="euro_2024_poster_generator",
-    version="0.0.1",
+    version="0.0.2",
     author="Lasha Kajaia",
     author_email="lasha@kajaia.dev",
     description="A Python package to generate Euro 2024 match poster with Pillow",

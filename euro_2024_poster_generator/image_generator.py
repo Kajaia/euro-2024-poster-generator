@@ -58,10 +58,10 @@ def prepare(home_team, away_team, home_logo_url, away_logo_url):
 
     # Save the image
     current_date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-    generated_directory = os.path.join(package_directory, "generated")
-    if not os.path.exists(generated_directory):
-        os.makedirs(generated_directory)
-    image_path = os.path.join(generated_directory, f"{slugify(home_team)}-vs-{slugify(away_team)}-{current_date}.png")
+    output_directory = os.path.join(package_directory, "../../generated")
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+    image_path = os.path.join(output_directory, f"{slugify(home_team)}-vs-{slugify(away_team)}-{current_date}.png")
     image.save(image_path)
     return image_path
 
